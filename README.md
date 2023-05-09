@@ -15,17 +15,17 @@ MULTIPLIER = 3
 5. Basic Upper Band = (high+low)/2 + (multiplier * ATR)\n
 6. Basic lower Band = (high+low)/2 - (multiplier * ATR)\n
 
-7. final upper band = if(previous final upper band > previous close ) \n
+7.          final upper band = if(previous final upper band > previous close ) \n
 8.                       Then min(Basic upper Band , Previous Final Upper Band)
 9.                    else
 10.                        Basic Upper Band
 11.                        
 12. 
-13. final lower band = if(previous final lower band < previous close ) 
+13.               final lower band = if(previous final lower band < previous close ) 
 14.                       Then max(Basic lower Band , Previous Final lower Band)
 15.                    else
 16.                        Basic lower Band
-17. Super Trend = if(Previous super trend == Previous Final Upper Band AND Current Close <= Current Final Upper Band) OR
+17.         Super Trend = if(Previous super trend == Previous Final Upper Band AND Current Close <= Current Final Upper Band) OR
 18.                  (Previous Super Trend == Previous Final Lower Band AND Current Close >= Current Fina Lower Band)
 19.                 Then
 20.                    Previous Final Upper/Lower Band

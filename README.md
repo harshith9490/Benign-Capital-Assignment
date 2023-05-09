@@ -8,14 +8,14 @@ MULTIPLIER = 3
 
 
 # Super Trend Indicator
-It was created by olivier seban
-It will show the trend following indicator based on ATR(Average True Range)
-It combines thge Trend Detection and volatility
-Used to detect the changes in Trend Detection
-Basic Upper Band = (high+low)/2 + (multiplier * ATR)
-Basic lower Band = (high+low)/2 - (multiplier * ATR)
+It was created by olivier seban\n
+It will show the trend following indicator based on ATR(Average True Range)\n
+It combines thge Trend Detection and volatility\n
+Used to detect the changes in Trend Detection\n
+Basic Upper Band = (high+low)/2 + (multiplier * ATR)\n
+Basic lower Band = (high+low)/2 - (multiplier * ATR)\n
 
-final upper band = if(previous final upper band > previous close ) 
+final upper band = if(previous final upper band > previous close ) \n
                       Then min(Basic upper Band , Previous Final Upper Band)
                    else
                        Basic Upper Band
